@@ -1,0 +1,103 @@
+body {
+  font-family: 'Poppins';
+  padding: 30px;
+  background: #F1F5F9;
+  color: #64748B;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Header */
+h1 {
+  color: #0F172A;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.description {
+  color: #64748B;
+  font-size: 14px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+/* Layout */
+.file-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.file {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 16px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  border: 1px solid #E2E8F0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: all 0.2s ease;
+}
+
+/* Hover Card */
+.file:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* Text */
+.file h3 {
+  color: #0F172A;
+  font-size: 16px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.file p {
+  font-size: 13px;
+  color: #475569;
+  margin-bottom: 10px;
+}
+
+.file small {
+  font-size: 12px;
+  color: #94A3B8;
+  display: block;
+}
+
+.file {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Button */
+a {
+  display: block;
+  width: fit-content;
+
+  margin: 15px auto 0;
+
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #2563EB;
+
+  padding: 10px 15px;
+  border-radius: 10px;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.2s;
+}
+
+a:hover {
+  background: #1D4ED8;
+  transform: translateY(-2px);
+}
