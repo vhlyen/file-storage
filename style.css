@@ -44,6 +44,11 @@ h1 {
 
   transition: all 0.2s ease;
 }
+.actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
 
 /* Hover Card */
 .file:hover {
@@ -97,7 +102,38 @@ a {
   transition: 0.2s;
 }
 
+.btn {
+  flex: 1;
+  text-align: center;
+  padding: 10px;
+
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+
+  transition: 0.2s;
+}
+
 a:hover {
   background: #1D4ED8;
   transform: translateY(-2px);
+}
+
+.preview {
+  background: #e5e7eb;
+  color: #111;
+}
+
+.preview:hover {
+  background: #d1d5db;
+}
+
+.download {
+  background: #2563eb;
+  color: white;
+}
+
+.download:hover {
+  background: #1d4ed8;
 }
